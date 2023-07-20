@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -25,8 +31,15 @@ body {
 main {
     background-color: rgba(43, 43, 43, 0.644);
     border-radius: 10px;
-    height: 600px;
-    width: 80vw;
+    height: 580px;
+    width: 400px;
+}
+
+.top-login {
+    height: 200px;
+    background: url('../images/imageLogin.jpg') no-repeat no-repeat top center;
+    background-size: cover;
+    border-radius: 10px; 
 }
 
 .bottom-login  {
@@ -40,7 +53,7 @@ main {
 }
 
 form > input {
-    padding: 0px 10px;
+    padding-left: 45px;
     margin-bottom: 10px;
     height: 40px;
     width: 100%;
@@ -48,8 +61,18 @@ form > input {
     border-radius: 5px;
 }
 
-form > input:: {
-    content: url('../images/icon-memory.svg');
+form input:nth-child(1) {
+    background-image: url('../images/o-email.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: calc(100% - 95%) center;
+}
+
+form input:nth-child(2) {
+    background-image: url('../images/senha.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: calc(100% - 95%) center;
 }
 
 form > button {
