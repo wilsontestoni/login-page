@@ -62,14 +62,14 @@ form > input {
 }
 
 form input:nth-child(1) {
-    background-image: url('../images/o-email.png');
+    background-image: url('../images/email.png');
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: calc(100% - 95%) center;
 }
 
 form input:nth-child(2) {
-    background-image: url('../images/senha.png');
+    background-image: url('../images/password.png');
     background-repeat: no-repeat;
     background-size: 22px;
     background-position: calc(100% - 95%) center;
