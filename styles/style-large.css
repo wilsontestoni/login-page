@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to right, black 47%, white );
+    }
+
+    main {
+        width: 950px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.226);
+    }
+
+    .top-login {
+        order: 2;
+        height: 580px;
+        width: 475px;
+        background-position: right right;
+        background-attachment: fixed;
+        border-radius: 0px 10px 10px 0px;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    .bottom-login {
+        width: 475px;
+    }
+    
+    .bottom-login h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    form input:nth-child(1) {
+        background-position: calc(100% - 96%) center;
+    }
+    
+    form input:nth-child(2) {
+        background-position: calc(100% - 96%) center;
+    }
+
+    form > button {
+        margin-bottom: 40px;
+    }
+    
+}

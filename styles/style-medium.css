@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to left, black 47%, white);
+    }
+
+    main {
+        width: 730px;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.226);
+    }
+
+    .top-login {
+        width: 365px;
+        height: 580px;
+        background-position: left center;
+        background-attachment: fixed;
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    .bottom-login {
+        width: 365px;
+    }
+
+    .bottom-login h1 {
+        margin-bottom: 40px;
+    }
+
+    form > button {
+        margin-bottom: 40px;
+    }
+    
+    
+
+}
