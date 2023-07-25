@@ -10,7 +10,7 @@
         width: 730px;
         display: flex;
         align-items: center;
-        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.226);
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.205);
     }
 
     .top-login {
@@ -19,11 +19,12 @@
         background-position: left center;
         background-attachment: fixed;
         border-radius: 10px 0px 0px 10px;
-        box-shadow: 1px 1px 10px black;
+        box-shadow: 0px 0px 10px black;
     }
 
     .bottom-login {
         width: 365px;
+        
     }
 
     .bottom-login h1 {
