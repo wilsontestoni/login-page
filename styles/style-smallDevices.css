@@ -56,10 +56,6 @@ form > input {
     border-radius: 5px;
 }
 
-form > input:focus {
-    outline-color: rgb(27, 97, 124);
-}
-
 form input:nth-child(1) {
     background-image: url('../images/email.png');
     background-repeat: no-repeat;
